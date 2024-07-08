@@ -28,12 +28,12 @@
     [Audio wav bytes to SoundWave](doc/API.md#Audio%20wav%20bytes%20to%20SoundWave)<br/>
 
 ####     [Utilities](doc/API.md#Utilities)
-        [Get available Speakers](doc/API.md#Get%20available%20Speakers) <b style="color: red">*</b><br/>
-        [Get available Speakers (filtered)](doc/API.md#Get%20available%20Speakers%20filtered) <b style="color: red">*</b><br/>
+        [Get available Speakers](doc/API.md#Get%20available%20Speakers) <b style="color:red">\*</b> <br/>
+        [Get available Speakers (filtered)](doc/API.md#Get%20available%20Speakers%20filtered) <b style="color: red">\*</b><br/>
         [Scheme filename](doc/API.md#Scheme%20filename)<br/>
 
 ####     [Editor-only](doc/API.md#Editor)
-        [Get Documentation URL](doc/API.md#Get%20Documentation%20URL) <b style="color: red">*</b><br/>
+        [Get Documentation URL](doc/API.md#Get%20Documentation%20URL) <b style="color: red">\*</b><br/>
         [Show folder selection dialog](doc/API.md#Show%20folder%20selection%20dialog)<br/>
         [Save bytes to file](doc/API.md#Save%20bytes%20to%20file)<br/>
 
@@ -42,7 +42,7 @@
     [Package a project](doc/Others.md#Package%20a%20project)<br/>
 
 
-*<b>*</b>Pure functions*
+*<b style="color:red">\*</b>Pure functions*
 
 If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com)
 

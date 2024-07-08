@@ -7,9 +7,9 @@
 
 ## Table of contents
 
-### [Setup](doc/Setup.md)
-: [Prerequisites](doc/Setup.md#prerequisites)
-: [Installation](doc/Setup.md#installation)
+> ### [Setup](doc/Setup.md)
+>> [Prerequisites](doc/Setup.md#prerequisites)
+>>> [Installation](doc/Setup.md#installation)
 ### [Quickstart](doc/Quickstart.md)
 #### [Editor pre-generation](doc/Quickstart.md#editor)
 ####     [Runtime generation](doc/Quickstart.md#runtime)

@@ -3,7 +3,7 @@
 
 ![ariel thumbnail](res/ariel_thumbnail.png)
 
-→ Buy the Ariel plugin from the Unreal marketplace here: https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
+**→ Buy the Ariel plugin from the Unreal marketplace here:** https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
 
 ## Table of contents
 
@@ -43,7 +43,8 @@
 
 
 *<b style="color:red">\*</b>Pure functions*
-
+<br/>
+<br/>
 If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com)
 
 ## Speakers

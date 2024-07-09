@@ -7,20 +7,20 @@
 [Ariel Text-To-Speech](#ariel-text-to-speech)<br/>
 [On Ariel Response](#on-ariel-response)<br/>
 [Audio wav bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
-####     [Utilities](#utilities-1)
+#### [Utilities](#utilities-1)
     [Get available Speakers](#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
     [Get available Speakers (filtered)](#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
     [Scheme filename](TODO)<br/>
 
-####     [Editor-only](TODO)
+#### [Editor-only](TODO)
     [Get Documentation URL](TODO) <b style="color: red">\*</b><br/>
     [Show folder selection dialog](TODO)<br/>
     [Save bytes to file](TODO)<br/>
-####     [Structures](TODO)
-   [Ariel Speaker](TODO)<br/>
-####     [Enumerations](TODO)
-   [Ariel Audio Format](TODO)<br/>
-   [Ariel Audio Effect](TODO)<br/>
+#### [Structures](TODO)
+    [Ariel Speaker](TODO)<br/>
+#### [Enumerations](TODO)
+    [Ariel Audio Format](TODO)<br/>
+    [Ariel Audio Effect](TODO)<br/>
 *<b style="color:red">\*</b>Pure functions*
 
 ## Ariel Text-To-Speech

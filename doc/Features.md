@@ -1,4 +1,4 @@
-# Quickstart
+# Features
 
 **[← Table of contents](/README.md)**
 

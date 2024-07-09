@@ -1,7 +1,7 @@
 # Ariel Plugin for Unreal Engine - Documentation
 
 
-![ariel thumbnail](res/ariel_thumbnail.png)
+![ariel thumbnail](/res/ariel_thumbnail.png)
 
 **→ Buy the Ariel plugin from the Unreal marketplace here:** https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
 
@@ -10,32 +10,37 @@
 → If you are more comfortable with a video, please watch our [YouTube tutorial video](https://youtu.be/78WMagHKaow)!<br/>
 **Note:** *The video was recorded with Ariel v.1.0.5. Some features might not be presented in the video,  while some other might have changed a bit.*
 
-### [Setup](doc/Setup.md)
-    [Prerequisites](doc/Setup.md#prerequisites)<br/>
-    [Installation](doc/Setup.md#installation)<br/>
+### [Setup](/doc/Setup.md)
+    [Prerequisites](/doc/Setup.md#prerequisites)<br/>
+    [Installation](/doc/Setup.md#installation)<br/>
 
-### [Quickstart](doc/Quickstart.md)
-    [🎬 Editor pre-generation](doc/Quickstart.md#-editor-pre-generation)<br/>
-    [🎤 Runtime generation](doc/Quickstart.md#-runtime-generation)<br/>
+### [Quickstart](/doc/Quickstart.md)
+    [🎬 Editor pre-generation](/doc/Quickstart.md#-editor-pre-generation)<br/>
+    [🎤 Runtime generation](/doc/Quickstart.md#-runtime-generation)<br/>
 
-### [Features](doc/Features.md)
-    [🎶 Audio effects](doc/Features.md#Audio%20effects)<br/>
-    [📝 Tags](doc/Features.md#Tags)<br/>
+### [Features](/doc/Features.md)
+    [🎶 Audio effects](/doc/Features.md#Audio%20effects)<br/>
+    [📝 Tags](/doc/Features.md#Tags)<br/>
 
-### [API Reference](doc/API.md)
-    [Ariel Text-To-Speech](doc/API.md#Ariel%20Text-To-Speech)<br/>
-    [On Ariel Response](doc/API.md#On%20Ariel%20Response)<br/>
-    [Audio wav bytes to SoundWave](doc/API.md#Audio%20wav%20bytes%20to%20SoundWave)<br/>
+### [API Reference](/doc/API.md)
+    [Ariel Text-To-Speech](/doc/API.md#ariel-text-to-speech)<br/>
+    [On Ariel Response](/doc/API.md#on-ariel-response)<br/>
+    [Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)<br/>
 
-####     [Utilities](doc/API.md#Utilities)
-        [Get available Speakers](doc/API.md#Get%20available%20Speakers) <b style="color:red">\*</b> <br/>
-        [Get available Speakers (filtered)](doc/API.md#Get%20available%20Speakers%20filtered) <b style="color: red">\*</b><br/>
-        [Scheme filename](doc/API.md#Scheme%20filename)<br/>
+####     [Utilities](/doc/API.md#utilities-1)
+        [Get available Speakers](/doc/API.md#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
+        [Get available Speakers (filtered)](/doc/API.md#Get%20available%20Speakers%20filtered) <b style="color: red">\*</b><br/>
+        [Scheme filename](/doc/API.md#Scheme%20filename)<br/>
 
-####     [Editor-only](doc/API.md#Editor)
-        [Get Documentation URL](doc/API.md#Get%20Documentation%20URL) <b style="color: red">\*</b><br/>
-        [Show folder selection dialog](doc/API.md#Show%20folder%20selection%20dialog)<br/>
-        [Save bytes to file](doc/API.md#Save%20bytes%20to%20file)<br/>
+####     [Editor-only](/doc/API.md#Editor)
+        [Get Documentation URL](/doc/API.md#Get%20Documentation%20URL) <b style="color: red">\*</b><br/>
+        [Show folder selection dialog](/doc/API.md#Show%20folder%20selection%20dialog)<br/>
+        [Save bytes to file](/doc/API.md#Save%20bytes%20to%20file)<br/>
+####     [Structures](/doc#API.md#Structures-1)
+        [Ariel Speaker](/doc/API.md???)<br/>
+####     [Enumerations](/doc#API.md#Enumerations-1)
+        [Ariel Audio Format]()<br/>
+        [Ariel Audio Effect]()<br/>
 *<b style="color:red">\*</b>Pure functions*
 
 ### [Others](doc/Others.md)

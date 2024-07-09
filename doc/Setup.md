@@ -2,6 +2,13 @@
 
 **[← Table of contents](/README.md)**
 
+### On this page
+
+[Prerequisites](#prerequisites)<br/>
+[Installation](#installation)<br/>
+    *[From the Marketplace](#from-the-marketplace)*<br/>
+    *[From a ZIP archive (source code)](#from-a-zip-archive-source-code)*<br/>
+
 ## Prerequisites
 
 There is two different version of the plugin:

@@ -16,7 +16,7 @@
 
 ### [Quickstart](doc/Quickstart.md)
     [🎬 Editor pre-generation](doc/Quickstart.md#-editor-pre-generation)<br/>
-    [🎤Runtime generation](doc/Quickstart.md#runtime)<br/>
+    [🎤 Runtime generation](doc/Quickstart.md#-runtime-generation)<br/>
 
 ### [Features](doc/Features.md)
     [🎶 Audio effects](doc/Features.md#Audio%20effects)<br/>

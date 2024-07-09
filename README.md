@@ -15,8 +15,8 @@
     [Installation](doc/Setup.md#installation)<br/>
 
 ### [Quickstart](doc/Quickstart.md)
-    [🎬 Editor pre-generation](doc/Quickstart.md#editor)<br/>
-    [🎤 Runtime generation](doc/Quickstart.md#runtime)<br/>
+    [🎬 Editor pre-generation](doc/Quickstart.md#-editor-pre-generation)<br/>
+    [🎤Runtime generation](doc/Quickstart.md#runtime)<br/>
 
 ### [Features](doc/Features.md)
     [🎶 Audio effects](doc/Features.md#Audio%20effects)<br/>
@@ -36,14 +36,12 @@
         [Get Documentation URL](doc/API.md#Get%20Documentation%20URL) <b style="color: red">\*</b><br/>
         [Show folder selection dialog](doc/API.md#Show%20folder%20selection%20dialog)<br/>
         [Save bytes to file](doc/API.md#Save%20bytes%20to%20file)<br/>
+*<b style="color:red">\*</b>Pure functions*
 
 ### [Others](doc/Others.md)
     [Developers settings](doc/Others.md#Developers%20settings)<br/>
     [Package a project](doc/Others.md#Package%20a%20project)<br/>
 
-
-*<b style="color:red">\*</b>Pure functions*
-<br/>
 <br/>
 If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com)
 

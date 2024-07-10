@@ -27,7 +27,7 @@ The editor interface allows you to generate audio sentences and download them as
 
 *   On the ![lightgreen box](https://placehold.co/10x10/lightgreen/lightgreen) <b style="color: lightgreen">Green box</b>, you can add [audio effects](/doc/Features.md#-audio-effects) that will be applied to the audio file. Those audio effect are optionnal and can be combined. Click the `+` button to add an audio effect and the `X` button to remove it. Selecting multiple times the same audio effect have no effects.
 
-*   On the ![red box](https://placehold.co/10x10/red/red) <b style="color: red">Red box</b>, Select the audio file destination and filename. The filename support [schemes](/doc/API.md#TODOTODO), like `{speaker}` or `{format}`. Please click the `?` button for more details. We recommand to always use the *WAV* format.
+*   On the ![red box](https://placehold.co/10x10/red/red) <b style="color: red">Red box</b>, Select the audio file destination and filename. The filename support [schemes](/doc/API.md#scheme-filename), like `{speaker}` or `{format}`. Please click the `?` button for more details. We recommand to always use the *WAV* format.
 
 If the format selected is *WAV* and the file is saved within the project, a popup should appear in the bottom right corner asking you if you want to import the new file into the project. Click "Import" to let the Engine automatically create a SoundWave object from the generated file. You can also check the box *Don't ask again* to automatically import all future generated files.
 
@@ -63,4 +63,4 @@ You can find a fully operational Blueprint Actor that generate and play an audio
     <b style="color: lightblue">1.</b> The node *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)* is used to call the Ariel API and generate the speech with the demo Actor parameters.<br/>
     <b style="color: red">2.</b> The event *[On Ariel Response](/doc/API.md#on-ariel-response)* is called when the Ariel API responded. We ensure that the request was successful, otherwise the error is printed in the logs.<br/>
     <b style="color: lightgreen">3.</b> The node *[Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)* is used to generate a SoundWave Asset from the API response bytes data.<br/>
-    <b style="color: purple">4.</b> The nodes *Set Sound* and *Play* from the Unreal [Audio Component](https://dev.epicgames.com/documentation/unreal-engine/API/Runtime/Engine/Components/UAudioComponent) are used to play the generated SoundWave Asset.
+    <b style="color: purple">4.</b> The nodes *Set Sound* and *Play* from the Unreal Audio Component are used to play the generated SoundWave Asset.

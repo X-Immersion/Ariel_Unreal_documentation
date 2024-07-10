@@ -26,28 +26,27 @@
     [Ariel Text-To-Speech](/doc/API.md#ariel-text-to-speech)<br/>
     [On Ariel Response](/doc/API.md#on-ariel-response)<br/>
     [Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)<br/>
-
 ####     [Utilities](/doc/API.md#utilities-1)
         [Get available Speakers](/doc/API.md#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
-        [Get available Speakers (filtered)](/doc/API.md#Get%20available%20Speakers%20filtered) <b style="color: red">\*</b><br/>
-        [Scheme filename](/doc/API.md#Scheme%20filename)<br/>
-
-####     [Editor-only](/doc/API.md#Editor)
-        [Get Documentation URL](/doc/API.md#Get%20Documentation%20URL) <b style="color: red">\*</b><br/>
-        [Show folder selection dialog](/doc/API.md#Show%20folder%20selection%20dialog)<br/>
-        [Save bytes to file](/doc/API.md#Save%20bytes%20to%20file)<br/>
-####     [Structures](/doc#API.md#Structures-1)
-        [Ariel Speaker](/doc/API.md???)<br/>
-####     [Enumerations](/doc#API.md#Enumerations-1)
-        [Ariel Audio Format]()<br/>
-        [Ariel Audio Effect]()<br/>
+        [Get available Speakers (filtered)](/doc/API.md#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
+        [Scheme filename](/doc/API.md#scheme-filename)<br/>
+####     [Editor only](/doc/API.md#editor-only-1)
+        [Show folder selection dialog](/doc/API.md#show-folder-selection-dialog)<br/>
+        [Save bytes to file](/doc/API.md#save-bytes-to-file)<br/>
+        [Get Documentation URL](/doc/API.md#get-documentation-url) <b style="color: red">\*</b><br/>
+####     [Structures](/doc/API.md#structures-1)
+        [Ariel Speaker](/doc/API.md#ariel-speaker-farielspeaker)<br/>
+####     [Enumerations](/doc/API.md#enumerations-1)
+        [Ariel Audio Format](/doc/API.md#ariel-audio-format-earielaudioformat)<br/>
+        [Ariel Audio Effect](/doc/API.md#ariel-audio-effect-earielaudioeffect)<br/>
 *<b style="color:red">\*</b>Pure functions*
 
 ### [Others](doc/Others.md)
-    [Developers settings](doc/Others.md#Developers%20settings)<br/>
-    [Package a project](doc/Others.md#Package%20a%20project)<br/>
+    [Developers settings](TODO)<br/>
+    [Package a project](TODO)<br/>
 
 <br/>
+
 If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com)
 
 ## Speakers

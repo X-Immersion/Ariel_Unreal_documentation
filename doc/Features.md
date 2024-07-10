@@ -12,7 +12,7 @@
 When generating audio speech with the Ariel plugin, you can apply audio effects to the generated audio. Those effects are optionals and can be combined together to create the desired sound atmosphere. Here is a list of all audio effects available:
 
 | Name              | Description |
-| ------------- | ----------- |
+| ----------------- | ----------- |
 | **Telephone**     | The voice sounds like it's coming from a phone |
 | **Cave**          | The voice sounds like the speaker is in a cave |
 | **Small cave**    | The voice sounds like the speaker is in a small cave |

@@ -53,7 +53,6 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 <br/>
-<br/>
 
 ## On Ariel Response
 
@@ -73,7 +72,6 @@ Use the nodes *Add Custom Event...* or *Create Event* to bind the [Ariel Text-To
 | Error Message     | const FString&        | The error message, if the request was not successful. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 <br/>
 
@@ -105,8 +103,6 @@ Create a new SoundWave object from the generated audio wav file byte array. See 
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
 # Utilities
 
@@ -129,7 +125,6 @@ Get the available speakers list from the project settings.
 | Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The list of available speakers. This is the same list as the documentation [speaker list](/README.md#speakers). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 <br/>
 
@@ -155,7 +150,6 @@ Get available Ariel speakers that correspond to the desired gender and language.
 | Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The filtered list of available speakers. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 <br/>
 
@@ -200,8 +194,6 @@ Example:
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
 # Editor only
 
@@ -223,7 +215,6 @@ Open the Operating System folder selection dialog. This allows to select a folde
 | Return value | bool     | True if a folder was selected by the user, false otherwise. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 <br/>
 
@@ -255,7 +246,6 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 <br/>
-<br/>
 
 ## Get Documentation URL
 
@@ -273,8 +263,6 @@ Get the current Ariel plugin documentation URL.
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -303,8 +291,6 @@ The JSON structure of a speaker returned by the Ariel API. You can find the spea
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>

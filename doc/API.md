@@ -39,15 +39,15 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 | Name              | Type           | Default value     | Description |
 | ----------------- | -------------- | ----------------- | ----------- |
 | Speaker           | const FString& | *empty string*    | The speaker used to generate the speech. See [available speakers](/README.md#speakers). |
-| Language          | const FString& | *empty string*    | The speaker language used to generate the speech. Leave empty to select the default language associated with the speaker. See [available speakers](/README.md#speakers). |
+| Language          | const FString& | *empty string*    | The speaker language used to generate the speech. Leave empty to select the default language associated with the speaker. |
 | Sentence          | const FString& | *empty string*    | The sentence of the speech. |
-| Voice Adjustments | const bool     | `false`           | Analyze the generated audio file and try to enhance it with AI. It sometimes can lead to unwanted sounds, but in general improves audio. |
+| Voice Adjustments | const bool     | `false`           | Try to enhance the generated audio with AI. It sometimes can lead to unwanted sounds, but in general improves quality. |
 | Audio Format      | const [EArielAudioFormat](#ariel-audio-format-earielaudioformat) | `wav`    | The audio format of the generated file. |
 | Volume            | const int      | `0`dB             | Amplify or reduce the volume specified in dB. |
-| High Framerate    | const bool     | `false`           | Generate an audio with a frame rate of 44.1KHz instead of 22.05KHz. |
+| High Framerate    | const bool     | `false`           | Generate an audio with a frame rate of 44.1KHz instead of 22.05. |
 | Semitones         | const int      | `+0`st            | Shifts the sound by the given semitones. **Can be positive or negative**. |
 | Speed             | const float    | x`1.0`            | Increase or decrease the sound speed. **Must be greater than 0**. |
-| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio. See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
+| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio.<br/> See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
 | Logs              | const bool     | `false`           | Indicate if logs should be printed to the console. |
 | On Response       | [FOnArielResponse](#on-ariel-response) | -               | The event called when a response was received. |
 

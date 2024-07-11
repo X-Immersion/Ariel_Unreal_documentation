@@ -23,11 +23,15 @@ When generating audio speech with the Ariel plugin, you can apply audio effects 
 | **Alien 2 (alt)** | An other alien audio effect (like in the space) is added to the voice |
 | **Stereo**        | The audio file have two channels (the mono channel is duplicated) |
 
-Please note that the effect **Alien** is automatically applied to the voices *Xalith*, as well as the **Alien2** effect is automatically applied to the voices *Zephyr* and *Yorgon*.
+> [!TIP]
+> the **Alien** effect is automatically applied to the voices *Xalith*, as well as the **Alien2** effect is automatically applied to the voices *Zephyr* and *Yorgon*. They cannot be removed.
 
 ## 📝 Tags
 
 In your sentence, you can enter a silence tag for a custom pause. Write `<pause Xs>` or `<pause Xms>` where ***X*** is the duration (in seconds or milliseconds). For example:
 > Hi, how are you? <pause 3s> My name is Jane.
+
+<br/>
+<br/>
 
 **→ More tags will be added in our future plugin updates!**

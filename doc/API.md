@@ -53,7 +53,6 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
 ## On Ariel Response
 
@@ -73,7 +72,6 @@ Use the nodes *Add Custom Event...* or *Create Event* to bind the [Ariel Text-To
 | Error Message     | const FString&        | The error message, if the request was not successful. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Audio wav bytes to SoundWave
@@ -128,7 +126,6 @@ Get the available speakers list from the project settings.
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
 ## Get available Speakers (filtered) *(pure)*
 
@@ -152,7 +149,6 @@ Get available Ariel speakers that correspond to the desired gender and language.
 | Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The filtered list of available speakers. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Scheme filename
@@ -221,7 +217,6 @@ Open the Operating System folder selection dialog. This allows to select a folde
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
 ## Save bytes to file
 
@@ -249,7 +244,6 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 | Return value | bool     | True if the file was (over)written, false otherwise (like an unvalid path or a permission error). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Get Documentation URL
@@ -335,7 +329,6 @@ This enum contains all Ariel audio effects available. See [🎚️ Audio effects
 | **Stereo**        | The audio file have two channels (the mono channel is duplicated). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Ariel Audio Format *(EArielAudioFormat)*

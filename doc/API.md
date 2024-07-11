@@ -6,7 +6,7 @@
 
 [Ariel Text-To-Speech](#ariel-text-to-speech)<br/>
 [On Ariel Response](#on-ariel-response)<br/>
-[Audio wav bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
+[Audio WAV bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
 #### [Utilities](#utilities-1)
     [Get available Speakers](#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
     [Get available Speakers (filtered)](#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
@@ -74,19 +74,19 @@ Use the nodes *Add Custom Event...* or *Create Event* to bind the [Ariel Text-To
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Audio wav bytes to SoundWave
+## Audio WAV bytes to SoundWave
 
 C++ Function: `UArielBPLibrary::WavBytesToSoundWave`
 
-Create a new SoundWave object from the generated audio wav file byte array. See [Ariel Text-To-Speech](#ariel-text-to-speech) and [On Ariel Response](#on-ariel-response) for more details on how to generate the audio bytes.
+Create a new SoundWave object from the generated audio WAV file byte array. See [Ariel Text-To-Speech](#ariel-text-to-speech) and [On Ariel Response](#on-ariel-response) for more details on how to generate the audio bytes.
 
-![Audio wav bytes to SoundWave node](/res/audio_wav_bytes_to_soundwave.png)
+![Audio WAV bytes to SoundWave node](/res/audio_wav_bytes_to_soundwave.png)
 
 ### Parameters
 
 | Name        | Type                   | Default value | Description |
 | ----------- | ---------------------- | ------------- | ----------- |
-| Audio Bytes | const TArray\<uint8\>& | -             | The wav file bytes. **Warning:** Must be PCM-16 for Unreal Engine! |
+| Audio Bytes | const TArray\<uint8\>& | -             | The WAV file bytes. **Warning:** Must be PCM-16 for Unreal Engine! |
 
 ### Return values
 
@@ -157,13 +157,13 @@ C++ Function: `UArielBPLibrary::SchemeFilename`
 
 Replace shamed templates with the actual value for the Ariel filename.
 
-You can use the schemes below to cusomise the name of the generated audio:
+You can use the schemes below to customize the name of the generated audio:
 
 * `{speaker}` The name of the speaker.
 * `{date}` The current date (from OS).
 * `{time}` The current time (from OS).
 * `{datetime}` The current date time (from OS).
-* `{uuid}` The uuid (or guid).
+* `{uuid}` The UUID (or GUID).
 * `{format}` The audio format.
 
 Example:
@@ -212,7 +212,7 @@ Open the Operating System folder selection dialog. This allows to select a folde
 
 | Name         | Type     | Description |
 | ------------ | -------- | ----------- |
-| Selected Dir | FString& | The absolute directory path (unix style, with `/`). |
+| Selected Dir | FString& | The absolute directory path (Unix style, with `/`). |
 | Return value | bool     | True if a folder was selected by the user, false otherwise. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
@@ -240,8 +240,8 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 
 | Name         | Type     | Description |
 | ------------ | -------- | ----------- |
-| Out Path     | FString& | The absolute file path (unix style, with `/`), fully qualified. |
-| Return value | bool     | True if the file was (over)written, false otherwise (like an unvalid path or a permission error). |
+| Out Path     | FString& | The absolute file path (Unix style, with `/`), fully qualified. |
+| Return value | bool     | True if the file was (over)written, false otherwise (like an invalid path or a permission error). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
@@ -312,7 +312,7 @@ C++ Declaration: `EArielAudioEffect`
 This enum contains all Ariel audio effects available. See [🎚️ Audio effects](/doc/Features.md#-audio-effects) for more details.
 
 ![Ariel audio effect make node](/res/ariel_audio_effect.png)<br/>
-*Hover the cursor on an value to see more details about it.*
+*Hover the cursor on a value to see more details about it.*
 
 ### Values
 
@@ -338,11 +338,11 @@ C++ Declaration: `EArielAudioFormat`
 This enum contains all supported ariel audio file formats.
 
 ![Ariel audio format make node](/res/ariel_audio_format.png)<br/>
-*Hover the cursor on an value to see more details about it.*
+*Hover the cursor on a value to see more details about it.*
 
 ### Values
 
 | Name | Description |
 | ---- | ----------- |
-| wav  | PCM-16 RIFF Waveform audio file. |
-| mp3  | MPEG-1/2 audio file. |
+| WAV  | PCM-16 RIFF Waveform audio file. |
+| MP3  | MPEG-1/2 audio file. |

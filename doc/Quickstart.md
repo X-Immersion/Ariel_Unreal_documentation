@@ -24,13 +24,13 @@ The editor interface allows you to generate audio sentences and download them as
 
 *   On the ![blue box](https://placehold.co/10x10/3398ff/3398ff) <b style="color: #3398ff">Blue box</b>, select the speaker and the language that will be used to generate the sentence. You can use the fields *Language filter* and *Gender filter* to filter the speakers that only match those requirements. See [speakers list](/README.md#speakers).
 
-*   On the ![orange box](https://placehold.co/10x10/ffb266/ffb266) <b style="color: #ffb266">Orange box</b>, adjust the pitch (in semitones), the audio speed and the volume (in dB) that will be applied to the audio file before saving it. You can also use your favourite game audio software tool (like Wwise, Fmod or Cue) to change those settings more dynamically **after** the file was saved.
+*   On the ![orange box](https://placehold.co/10x10/ffb266/ffb266) <b style="color: #ffb266">Orange box</b>, adjust the pitch (in semitones), the audio speed and the volume (in dB) that will be applied to the audio file before saving it. You can also use your favorite game audio software tool (like Wwise, Fmod or Cue) to change those settings more dynamically **after** the file was saved.
 
-*   On the ![green box](https://placehold.co/10x10/66ff66/66ff66) <b style="color: #66ff66">Green box</b>, you can add [audio effects](/doc/Features.md#-audio-effects) that will be applied to the audio file. Those audio effect are optionnal and can be combined. Click the `+` button to add an audio effect and the `X` button to remove it. Selecting multiple times the same audio effect have no effects.
+*   On the ![green box](https://placehold.co/10x10/66ff66/66ff66) <b style="color: #66ff66">Green box</b>, you can add [audio effects](/doc/Features.md#-audio-effects) that will be applied to the audio file. Those audio effects are optional and can be combined. Click the `+` button to add an audio effect and the `X` button to remove it. Selecting multiple times the same audio effect have no effects.
 
-*   On the ![red box](https://placehold.co/10x10/ff6666/ff6666) <b style="color: #ff6666">Red box</b>, Select the audio file destination and filename. The filename support [schemes](/doc/API.md#scheme-filename), like `{speaker}` or `{format}`. Please click the `?` button for more details. We recommand to always use the *WAV* format, as MP3 is not natively supported with Unreal Engine yet.
+*   On the ![red box](https://placehold.co/10x10/ff6666/ff6666) <b style="color: #ff6666">Red box</b>, Select the audio file destination and filename. The filename support [schemes](/doc/API.md#scheme-filename), like `{speaker}` or `{format}`. Please click the `?` button for more details. We recommend to always use the *WAV* format, as MP3 is not natively supported with Unreal Engine yet.
 
-→ If the format selected is *wab* and the file is saved **within** the project, a popup should appear in the bottom right corner asking you if you want to import the new file into the project:
+→ If the format selected is *WAV* and the file is saved **within** the project, a popup should appear in the bottom right corner asking you if you want to import the new file into the project:
 
 ![Unreal import popup](/res/auto_import.png)
 
@@ -41,7 +41,7 @@ The editor interface allows you to generate audio sentences and download them as
 
 You can find a **<ins>fully operational</ins> Blueprint Actor** that generate and play an audio SoundWave at runtime. The actor is located in the Ariel plugin Content.
 
-0. Open the *Content Drawer* (Ctrl+Space) and click on *Settings* at the upper right corner of the Window. Make sure that *"Show Engine Content"* and *"Show Plugin Content"* are checked.<br/>
+0. Open the *Content Drawer* (Ctrl+Space) and click on *Settings* in the upper right corner of the Window. Make sure that *"Show Engine Content"* and *"Show Plugin Content"* are checked.<br/>
 ![Content drawer settings](/res/content_drawer_settings.png)
 
 1. Depending on if you have installed through the Marketplace or a ZIP archive, go respectively to **All** > **Engine** > **Plugins** > **Ariel Content** <ins>*or*</ins> **All** > **Plugins** > **Ariel Content**.<br/>
@@ -58,7 +58,7 @@ You can find a **<ins>fully operational</ins> Blueprint Actor** that generate an
 
 5. Click the "Ariel TTS" button. If the player is close to the Ariel demo Actor, you should be able to hear the generated SoundWave.
 
-→ Do not hesitate to look at the Ariel demo Actor Blueprint Event graph to see the nodes used to generate the speech. You can find more information about the nodes on the [API Reference](/doc/API.md), especially the nodes *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)*, *[On Ariel Response](/doc/API.md#on-ariel-response)* and *[Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)*.
+→ Do not hesitate to look at the Ariel demo Actor Blueprint Event graph to see the nodes used to generate the speech. You can find more information about the nodes on the [API Reference](/doc/API.md), especially the nodes *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)*, *[On Ariel Response](/doc/API.md#on-ariel-response)* and *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)*.
 
 ![Ariel demo event graph](/res/ariel_demo_event_graph.png)
 
@@ -66,5 +66,5 @@ You can find a **<ins>fully operational</ins> Blueprint Actor** that generate an
 
 1. ![blue box](https://placehold.co/10x10/3398ff/3398ff) The node *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)* is used to call the Ariel API and generate the speech with the demo Actor parameters.<br/>
 2. ![red box](https://placehold.co/10x10/ff6666/ff6666) The event *[On Ariel Response](/doc/API.md#on-ariel-response)* is called when the Ariel API responded. We ensure that the request was successful, otherwise the error is printed in the logs.<br/>
-3. ![green box](https://placehold.co/10x10/66ff66/66ff66) The node *[Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)* is used to generate a SoundWave Asset from the API response bytes data.<br/>
+3. ![green box](https://placehold.co/10x10/66ff66/66ff66) The node *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)* is used to generate a SoundWave Asset from the API response bytes data.<br/>
 4. ![purple box](https://placehold.co/10x10/b266ff/b266ff) The nodes *Set Sound* and *Play* from the Unreal Audio Component are used to play the generated SoundWave Asset.

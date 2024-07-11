@@ -9,7 +9,7 @@
 
 ## 🎚️ Audio effects
 
-When generating audio speech with the Ariel plugin, you can apply audio effects to the generated audio. Those effects are optionals and can be combined together to create the desired sound atmosphere. Here is a list of all audio effects available:
+When generating audio speech with the Ariel plugin, you can apply audio effects to the generated audio. Those effects are optional and can be combined to create the desired sound atmosphere. Here is a list of all audio effects available:
 
 | Name              | Description |
 | ----------------- | ----------- |

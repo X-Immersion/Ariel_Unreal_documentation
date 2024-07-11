@@ -25,7 +25,7 @@
 ### [API Reference](/doc/API.md)
     [Ariel Text-To-Speech](/doc/API.md#ariel-text-to-speech)<br/>
     [On Ariel Response](/doc/API.md#on-ariel-response)<br/>
-    [Audio wav bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)<br/>
+    [Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)<br/>
 ####     [Utilities](/doc/API.md#utilities-1)
         [Get available Speakers](/doc/API.md#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
         [Get available Speakers (filtered)](/doc/API.md#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
@@ -53,91 +53,91 @@ If you have any question, do not hesitate to contact us through our [Discord ser
 
 | **Name**      | Type      | Gender            | Language(s) |
 | ------------- | --------- | ----------------- | ------------ |
-| **Sophia**    | *Premium*   | female (child)    | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Oriane**    | *Premium*   | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Dulhan**    | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Alioth**    | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Zenaya**    | *Premium*   | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Socrates**  | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **David**     | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Tom**       | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Baldur**    | *Premium*   | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Elizabeth** | *Premium*   | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Elen**      | *Premium*   | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Riley**     | *Premium*   | neutral           | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Orc**       | *Premium*   | neutral           | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Urukhai**   |*Premium*    | neutral           | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **HighElve**  |*Premium*    | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **DarkElve**  |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **HalfElve**  |*Premium*    | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **WoodElve**  |*Premium*    | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Dis**       |*Premium*    | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Dwarf**     |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Nordman**   |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Duergar**   |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Mike**      |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Yorgon**    |*Premium*    | male              | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Xalith**    |*Premium*    | female            | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Zephyr**    |*Premium*    | neutral           | english, spanish, french, german, italian, portuguese, polish, turkish, russian, dutch, czech, classic arabic, chinese, japanese, korean |
-| **Farah**     |  Standard | female            | classic arabic |
-| **Daiyu**     |  Standard | female            | chinese       |
+| **Sophia**    | *Premium*   | female (child)    | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Oriane**    | *Premium*   | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Dulhan**    | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Alioth**    | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Zenaya**    | *Premium*   | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Socrates**  | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **David**     | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Tom**       | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Baldur**    | *Premium*   | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Elizabeth** | *Premium*   | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Elen**      | *Premium*   | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Riley**     | *Premium*   | neutral           | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Orc**       | *Premium*   | neutral           | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Urukhai**   |*Premium*    | neutral           | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **HighElve**  |*Premium*    | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **DarkElve**  |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **HalfElve**  |*Premium*    | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **WoodElve**  |*Premium*    | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Dis**       |*Premium*    | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Dwarf**     |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Nordman**   |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Duergar**   |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Mike**      |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Yorgon**    |*Premium*    | male              | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Xalith**    |*Premium*    | female            | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Zephyr**    |*Premium*    | neutral           | English, Spanish, French, German, Italian, Portuguese, Polish, Turkish, Russian, Dutch, Czech, classic Arabic, Chinese, Japanese, Korean |
+| **Farah**     |  Standard | female            | classic Arabic |
+| **Daiyu**     |  Standard | female            | Chinese       |
 | **Emma**      |  Standard | female            | danish        |
 | **Oscar**     |  Standard | male              | danish        |
-| **Anke**      |  Standard | female            | dutch         |
-| **Adriaan**   |  Standard | male              | dutch         |
-| **Mia**       |  Standard | female            | english       |
-| **Grace**     |  Standard | female            | english       |
-| **Jack**      |  Standard | male              | english       |
-| **Charlotte** |  Standard | female            | english       |
-| **Elijah**    |  Standard | male              | english       |
-| **Advika**    |  Standard | female            | english       |
-| **Onkar**     |  Standard | female            | english       |
-| **Elna**      |  Standard | female            | english       |
-| **Mary**      |  Standard | female (child)    | english       |
-| **Linda**     |  Standard | female            | english       |
-| **Patricia**  |  Standard | female            | english       |
-| **Barbara**   |  Standard | female            | english       |
-| **Susan**     |  Standard | female            | english       |
-| **Paul**      |  Standard | male              | english       |
-| **Michael**   |  Standard | male (child)      | english       |
-| **William**   |  Standard | male (child)      | english       |
-| **Thomas**    |  Standard | male              | english       |
-| **Aeron**     |  Standard | male              | english       |
-| **Capucine**  |  Standard | female            | french        |
-| **Alix**      |  Standard | female            | french        |
-| **Arnaud**    |  Standard | male              | french        |
-| **Stephanie** |  Standard | female            | french        |
-| **Celine**    |  Standard | female            | french        |
-| **Maria**     |  Standard | female            | german        |
-| **Theresa**   |  Standard | female            | german        |
-| **Felix**     |  Standard | male              | german        |
+| **Anke**      |  Standard | female            | Dutch         |
+| **Adriaan**   |  Standard | male              | Dutch         |
+| **Mia**       |  Standard | female            | English       |
+| **Grace**     |  Standard | female            | English       |
+| **Jack**      |  Standard | male              | English       |
+| **Charlotte** |  Standard | female            | English       |
+| **Elijah**    |  Standard | male              | English       |
+| **Advika**    |  Standard | female            | English       |
+| **Onkar**     |  Standard | female            | English       |
+| **Elna**      |  Standard | female            | English       |
+| **Mary**      |  Standard | female (child)    | English       |
+| **Linda**     |  Standard | female            | English       |
+| **Patricia**  |  Standard | female            | English       |
+| **Barbara**   |  Standard | female            | English       |
+| **Susan**     |  Standard | female            | English       |
+| **Paul**      |  Standard | male              | English       |
+| **Michael**   |  Standard | male (child)      | English       |
+| **William**   |  Standard | male (child)      | English       |
+| **Thomas**    |  Standard | male              | English       |
+| **Aeron**     |  Standard | male              | English       |
+| **Capucine**  |  Standard | female            | French        |
+| **Alix**      |  Standard | female            | French        |
+| **Arnaud**    |  Standard | male              | French        |
+| **Stephanie** |  Standard | female            | French        |
+| **Celine**    |  Standard | female            | French        |
+| **Maria**     |  Standard | female            | German        |
+| **Theresa**   |  Standard | female            | German        |
+| **Felix**     |  Standard | male              | German        |
 | **Anna**      |  Standard | female            | Icelandic     |
 | **Sigriour**  |  Standard | male              | Icelandic     |
-| **Gabriella** |  Standard | female            | italian       |
-| **Lorenzo**   |  Standard | male              | italian       |
-| **Rika**      |  Standard | female            | japanese      |
-| **Tanaka**    |  Standard | male              | japanese      |
-| **Ji**-Ho     |  Standard | female            | korean        |
+| **Gabriella** |  Standard | female            | Italian       |
+| **Lorenzo**   |  Standard | male              | Italian       |
+| **Rika**      |  Standard | female            | Japanese      |
+| **Tanaka**    |  Standard | male              | Japanese      |
+| **Ji**-Ho     |  Standard | female            | Korean        |
 | **Camilla**   |  Standard | female            | Norwegian     |
-| **Katarzyna** |  Standard | female            | polish        |
-| **Malgorzata** | Standard | female            | polish        |
-| **Piotr**     |  Standard | male              | polish        |
-| **Jan**       |  Standard | male              | polish        |
-| **Tabata**    |  Standard | female            | portuguese    |
-| **Juliana**   |  Standard | female            | portuguese    |
-| **Pedro**     |  Standard | male              | portuguese    |
-| **Pati**      |  Standard | female            | portuguese    |
-| **Adriano**   |  Standard | male              | portuguese    |
+| **Katarzyna** |  Standard | female            | Polish        |
+| **Malgorzata** | Standard | female            | Polish        |
+| **Piotr**     |  Standard | male              | Polish        |
+| **Jan**       |  Standard | male              | Polish        |
+| **Tabata**    |  Standard | female            | Portuguese    |
+| **Juliana**   |  Standard | female            | Portuguese    |
+| **Pedro**     |  Standard | male              | Portuguese    |
+| **Pati**      |  Standard | female            | Portuguese    |
+| **Adriano**   |  Standard | male              | Portuguese    |
 | **Alexandra** |  Standard | female            | romanian      |
-| **Inessa**    |  Standard | female            | russian       |
-| **Viktor**    |  Standard | male              | russian       |
-| **Francisca** |  Standard | female            | spanish       |
-| **Margarita** |  Standard | female            | spanish       |
-| **Mateo**     |  Standard | male              | spanish       |
-| **Leticia**   |  Standard | female            | spanish       |
-| **Josefina**  |  Standard | female            | spanish       |
-| **Rosa**      |  Standard | female            | spanish       |
-| **Miguel**    |  Standard | male              | spanish       |
+| **Inessa**    |  Standard | female            | Russian       |
+| **Viktor**    |  Standard | male              | Russian       |
+| **Francisca** |  Standard | female            | Spanish       |
+| **Margarita** |  Standard | female            | Spanish       |
+| **Mateo**     |  Standard | male              | Spanish       |
+| **Leticia**   |  Standard | female            | Spanish       |
+| **Josefina**  |  Standard | female            | Spanish       |
+| **Rosa**      |  Standard | female            | Spanish       |
+| **Miguel**    |  Standard | male              | Spanish       |
 | **Eva**       |  Standard | female            | swedish       |
-| **Mesut**     |  Standard | female            | turkish       |
+| **Mesut**     |  Standard | female            | Turkish       |
 | **Angharad**  |  Standard | female            | welsh         |

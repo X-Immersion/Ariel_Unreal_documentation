@@ -278,7 +278,7 @@ C++ and Blueprint structs defined by the Ariel plugin.
 
 C++ Declaration: `FArielSpeaker`
 
-The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Developer settings](TODO).
+The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Project settings](/doc/Others.md#plugin-project-settings).
 
 ![Ariel speaker break node](/res/ariel_speaker.png)
 

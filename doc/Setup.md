@@ -49,7 +49,6 @@ Then, purchase the Ariel plugin from the Marketplace: https://www.unrealengine.c
 0. If not already done, create a new project with the Engine version of your choice and navigate to the project's root directory.
 > [!CAUTION]
 > Close the Unreal Project where you want Ariel to be installed first!
-<br/>
 
 1. Extract the content from the ZIP archive to the root directory of your Unreal project:<br/>
 ![extract ZIP file content](/res/extract_zip_content.png)

@@ -1,6 +1,6 @@
 # Quickstart
 
-**[← Table of contents](/README.md)**
+**[← Table of contents](/README.md#table-of-contents)**
 
 > [!IMPORTANT]
 > Please ensure that the Ariel plugin is installed and enabled within your project. Please read [this section](/doc/Setup.md#installation) for more details on how to install the Ariel plugin.

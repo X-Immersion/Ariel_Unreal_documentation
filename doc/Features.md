@@ -1,6 +1,6 @@
 # Features
 
-**[← Table of contents](/README.md)**
+**[← Table of contents](/README.md#table-of-contents)**
 
 ### On this page
 

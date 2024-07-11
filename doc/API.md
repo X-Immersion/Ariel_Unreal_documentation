@@ -276,7 +276,7 @@ C++ and Blueprint structs defined by the Ariel plugin.
 
 ## Ariel Speaker *(FArielSpeaker)*
 
-C++ Name: `FArielSpeaker`
+C++ Declaration: `FArielSpeaker`
 
 The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Developer settings](TODO).
 
@@ -307,7 +307,7 @@ C++ and Blueprint enumerations defined by the Ariel plugin.
 
 ## Ariel Audio Effect *(EArielAudioEffect)*
 
-C++ Name: `EArielAudioEffect`
+C++ Declaration: `EArielAudioEffect`
 
 This enum contains all Ariel audio effects available. See [🎚️ Audio effects](/doc/Features.md#-audio-effects) for more details.
 
@@ -333,7 +333,7 @@ This enum contains all Ariel audio effects available. See [🎚️ Audio effects
 
 ## Ariel Audio Format *(EArielAudioFormat)*
 
-C++ Name: `EArielAudioFormat`
+C++ Declaration: `EArielAudioFormat`
 
 This enum contains all supported ariel audio file formats.
 

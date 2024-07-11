@@ -4,10 +4,10 @@
 
 ### On this page
 
-[🎶 Audio effects](#-audio-effects)<br/>
+[🎚️ Audio effects](#-audio-effects)<br/>
 [📝 Tags](#-tags)<br/>
 
-## 🎶 Audio effects
+## 🎚️ Audio effects
 
 When generating audio speech with the Ariel plugin, you can apply audio effects to the generated audio. Those effects are optionals and can be combined together to create the desired sound atmosphere. Here is a list of all audio effects available:
 

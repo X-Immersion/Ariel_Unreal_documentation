@@ -19,7 +19,7 @@
     [🎤 Runtime generation](/doc/Quickstart.md#-runtime-generation)<br/>
 
 ### [Features](/doc/Features.md)
-    [🎶 Audio effects](/doc/Features.md#Audio%20effects)<br/>
+    [🎚️ Audio effects](/doc/Features.md#Audio%20effects)<br/>
     [📝 Tags](/doc/Features.md#Tags)<br/>
 
 ### [API Reference](/doc/API.md)
@@ -42,8 +42,8 @@
 *<b style="color:red">\*</b>Pure functions*
 
 ### [Others](doc/Others.md)
-    [Developers settings](TODO)<br/>
-    [Package a project](TODO)<br/>
+    [Plugin project settings](/doc/Others.md#plugin-project-settings)<br/>
+    [Package a project](/doc/Others.md#package-a-project)<br/>
 
 <br/>
 

@@ -24,6 +24,7 @@
 *<b style="color:red">\*</b>Pure functions*
 
 <!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
 
 ## Ariel Text-To-Speech
 
@@ -46,7 +47,7 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 | High Framerate    | const bool     | `false`           | Generate an audio with a frame rate of 44.1KHz instead of 22.05KHz. |
 | Semitones         | const int      | `+0`st            | Shifts the sound by the given semitones. **Can be positive or negative**. |
 | Speed             | const float    | x`1.0`            | Increase or decrease the sound speed. **Must be greater than 0**. |
-| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio. See [🎶 Audio effects](/doc/Features.md#-audio-effects). |
+| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio. See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
 | Logs              | const bool     | `false`           | Indicate if logs should be printed to the console. |
 | On Response       | [FOnArielResponse](#on-ariel-response) | -               | The event called when a response was received. |
 
@@ -109,6 +110,7 @@ Create a new SoundWave object from the generated audio wav file byte array. See 
 The following nodes have been created to help the usage of the Ariel plugin, but they are not part of the main plugin usage. The nodes below can be used in runtime and packaged projects, unlike the nodes described in the [Editor](#editor-only-1) section.
 
 <!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
 
 ## Get available Speakers *(pure)*
 
@@ -199,6 +201,9 @@ Example:
 
 The following nodes can **ONLY** be used when the Unreal Editor is running. The nodes won't be compiled on packaged projects and will result as a crash if they are called anyway. Please be careful when using these nodes.
 
+<!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+
 ## Show folder selection dialog
 
 C++ Function: `UArielEditorLibrary::ShowFolderSelectionDialog`
@@ -231,7 +236,7 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 | Name          | Type                  | Default value  | Description |
 | ------------- | --------------------- | -------------- | ----------- |
 | Bytes         | const TArray\<uni8\>& | -              | The bytes to write in the file. |
-| Filename      | const FString&        | ArielAudio     | The file name. You can specify the file extension as well (i.e: 'ArielAudio.ogg'). |
+| Filename      | const FString&        | `ArielAudio`   | The file name. You can specify the file extension as well (i.e: 'ArielAudio.ogg'). |
 | DirectoryPath | const FDirectoryPath& | -              | The directory where the file will be written. Can be inside or outside the project directory. |
 | Format        | const [EArielAudioFormat](#ariel-audio-format-earielaudioformat) | `wav`| The audio format used for file extension (if not already provided with the filename). |
 | Logs          | const bool            | `true`         | Indicate if logs should be printed to the console. |
@@ -272,6 +277,9 @@ Get the current Ariel plugin documentation URL.
 
 C++ and Blueprint structs defined by the Ariel plugin.
 
+<!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+
 ## Ariel Speaker *(FArielSpeaker)*
 
 C++ Name: `FArielSpeaker`
@@ -300,11 +308,14 @@ The JSON structure of a speaker returned by the Ariel API. You can find the spea
 
 C++ and Blueprint enumerations defined by the Ariel plugin.
 
+<!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+
 ## Ariel Audio Effect *(EArielAudioEffect)*
 
 C++ Name: `EArielAudioEffect`
 
-This enum contains all Ariel audio effects available. See [🎶 Audio effects](/doc/Features.md#-audio-effects) for more details.
+This enum contains all Ariel audio effects available. See [🎚️ Audio effects](/doc/Features.md#-audio-effects) for more details.
 
 ![Ariel audio effect make node](/res/ariel_audio_effect.png)<br/>
 *Hover the cursor on an value to see more details about it.*

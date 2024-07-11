@@ -27,8 +27,8 @@ There is two different version of the plugin:
 
 ### From the Marketplace
 
-0. If not already done, download and open the epic games launcher: https://store.epicgames.com/download<br/>
-You also need to purchase the Ariel plugin from the Marketplace: https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
+0. Download and open the epic games launcher: https://store.epicgames.com/download<br/>
+Then, purchase the Ariel plugin from the Marketplace: https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
 
 1. Login to your account:<br/>
 ![epic login form](/res/epic_sign_in.png)
@@ -47,16 +47,19 @@ You also need to purchase the Ariel plugin from the Marketplace: https://www.unr
 ### From a ZIP archive (source code)
 
 0. If not already done, create a new project with the Engine version of your choice and navigate to the project's root directory.
-<b style="color:red">Close the Unreal Project where you want Ariel to be installed first!</b>
+> [!CAUTION]
+> Close the Unreal Project where you want Ariel to be installed first!
+<br/>
 
-1. Extract the content from the ZIP archive to the root directory of your Unreal project<br/>
+1. Extract the content from the ZIP archive to the root directory of your Unreal project:<br/>
 ![extract ZIP file content](/res/extract_zip_content.png)
 
 2. Reopen your project.
 
 3. Depending on the Engine plugin version and if the engine in the ZIP archive was compiled or not, you might need to compile the plugin. If the following message appears when you try to reopen you project after extracting the zip, the plugin must be compiled:<br/>
 ![missing modules message](/res/uncompiled_plugin_message.png)<br/>
-***Note:*** You **must** have the C++ build tools for Unreal Engine. to be able to compile the plugin. Please see [prerequisites](./Setup.md#prerequisites) for more details.
+> [!NOTE]
+> You **must** have the C++ build tools for Unreal Engine. to be able to compile the plugin. Please read [prerequisites](./Setup.md#prerequisites) for more details.
 
 4. Navigate to **Edit** > **Plugins** > Search **"Ariel"** and enable the Ariel plugin (you may need to restart the Engine):
 ![enable plugin](/res/enable_plugin.png)

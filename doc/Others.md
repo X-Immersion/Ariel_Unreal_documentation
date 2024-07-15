@@ -13,7 +13,7 @@
 
 Some parameters, such as the API Endpoint URL and the API key used to authenticate the request, are stored in the project settings. You can find and edit those values under **Edit** > **Project settings...** > **Plugins** > **Ariel**: 
 
-![Ariel project settings](/res/ariel_project_settings.png)
+![Ariel project settings](/res/ariel_plugin_settings.png)
 
 ### Settings
 

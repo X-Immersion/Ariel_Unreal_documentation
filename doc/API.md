@@ -1,12 +1,12 @@
 # API Reference
 
-**[← Table of contents](/README.md)**
+**[← Table of contents](/README.md#table-of-contents)**
 
 ### On this page
 
 [Ariel Text-To-Speech](#ariel-text-to-speech)<br/>
 [On Ariel Response](#on-ariel-response)<br/>
-[Audio wav bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
+[Audio WAV bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
 #### [Utilities](#utilities-1)
     [Get available Speakers](#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
     [Get available Speakers (filtered)](#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
@@ -39,20 +39,19 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 | Name              | Type           | Default value     | Description |
 | ----------------- | -------------- | ----------------- | ----------- |
 | Speaker           | const FString& | *empty string*    | The speaker used to generate the speech. See [available speakers](/README.md#speakers). |
-| Language          | const FString& | *empty string*    | The speaker language used to generate the speech. Leave empty to select the default language associated with the speaker. See [available speakers](/README.md#speakers). |
+| Language          | const FString& | *empty string*    | The speaker language used to generate the speech. Leave empty to select the default language associated with the speaker. |
 | Sentence          | const FString& | *empty string*    | The sentence of the speech. |
-| Voice Adjustments | const bool     | `false`           | Analyze the generated audio file and try to enhance it with AI. It sometimes can lead to unwanted sounds, but in general improves audio. |
+| Voice Adjustments | const bool     | `false`           | Try to enhance the generated audio with AI. It sometimes can lead to unwanted sounds, but in general improves quality. |
 | Audio Format      | const [EArielAudioFormat](#ariel-audio-format-earielaudioformat) | `wav`    | The audio format of the generated file. |
 | Volume            | const int      | `0`dB             | Amplify or reduce the volume specified in dB. |
-| High Framerate    | const bool     | `false`           | Generate an audio with a frame rate of 44.1KHz instead of 22.05KHz. |
+| High Framerate    | const bool     | `false`           | Generate an audio with a frame rate of 44.1KHz instead of 22.05. |
 | Semitones         | const int      | `+0`st            | Shifts the sound by the given semitones. **Can be positive or negative**. |
 | Speed             | const float    | x`1.0`            | Increase or decrease the sound speed. **Must be greater than 0**. |
-| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio. See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
+| Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio.<br/> See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
 | Logs              | const bool     | `false`           | Indicate if logs should be printed to the console. |
 | On Response       | [FOnArielResponse](#on-ariel-response) | -               | The event called when a response was received. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## On Ariel Response
@@ -74,21 +73,20 @@ Use the nodes *Add Custom Event...* or *Create Event* to bind the [Ariel Text-To
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
-## Audio wav bytes to SoundWave
+## Audio WAV bytes to SoundWave
 
 C++ Function: `UArielBPLibrary::WavBytesToSoundWave`
 
-Create a new SoundWave object from the generated audio wav file byte array. See [Ariel Text-To-Speech](#ariel-text-to-speech) and [On Ariel Response](#on-ariel-response) for more details on how to generate the audio bytes.
+Create a new SoundWave object from the generated audio WAV file byte array. See [Ariel Text-To-Speech](#ariel-text-to-speech) and [On Ariel Response](#on-ariel-response) for more details on how to generate the audio bytes.
 
-![Audio wav bytes to SoundWave node](/res/audio_wav_bytes_to_soundwave.png)
+![Audio WAV bytes to SoundWave node](/res/audio_wav_bytes_to_soundwave.png)
 
 ### Parameters
 
 | Name        | Type                   | Default value | Description |
 | ----------- | ---------------------- | ------------- | ----------- |
-| Audio Bytes | const TArray\<uint8\>& | -             | The wav file bytes. **Warning:** Must be PCM-16 for Unreal Engine! |
+| Audio Bytes | const TArray\<uint8\>& | -             | The WAV file bytes. **Warning:** Must be PCM-16 for Unreal Engine! |
 
 ### Return values
 
@@ -101,9 +99,10 @@ Create a new SoundWave object from the generated audio wav file byte array. See 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
-<br/>
-<br/>
+
+---
+
+<br/><br/>
 
 # Utilities
 
@@ -127,7 +126,6 @@ Get the available speakers list from the project settings.
 | Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The list of available speakers. This is the same list as the documentation [speaker list](/README.md#speakers). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Get available Speakers (filtered) *(pure)*
@@ -153,7 +151,6 @@ Get available Ariel speakers that correspond to the desired gender and language.
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
 ## Scheme filename
 
@@ -161,13 +158,13 @@ C++ Function: `UArielBPLibrary::SchemeFilename`
 
 Replace shamed templates with the actual value for the Ariel filename.
 
-You can use the schemes below to cusomise the name of the generated audio:
+You can use the schemes below to customize the name of the generated audio:
 
 * `{speaker}` The name of the speaker.
 * `{date}` The current date (from OS).
 * `{time}` The current time (from OS).
 * `{datetime}` The current date time (from OS).
-* `{uuid}` The uuid (or guid).
+* `{uuid}` The UUID (or GUID).
 * `{format}` The audio format.
 
 Example:
@@ -193,9 +190,10 @@ Example:
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
-<br/>
-<br/>
+
+---
+
+<br/><br/>
 
 # Editor only
 
@@ -216,11 +214,10 @@ Open the Operating System folder selection dialog. This allows to select a folde
 
 | Name         | Type     | Description |
 | ------------ | -------- | ----------- |
-| Selected Dir | FString& | The absolute directory path (unix style, with `/`). |
+| Selected Dir | FString& | The absolute directory path (Unix style, with `/`). |
 | Return value | bool     | True if a folder was selected by the user, false otherwise. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Save bytes to file
@@ -245,11 +242,10 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 
 | Name         | Type     | Description |
 | ------------ | -------- | ----------- |
-| Out Path     | FString& | The absolute file path (unix style, with `/`), fully qualified. |
-| Return value | bool     | True if the file was (over)written, false otherwise (like an unvalid path or a permission error). |
+| Out Path     | FString& | The absolute file path (Unix style, with `/`), fully qualified. |
+| Return value | bool     | True if the file was (over)written, false otherwise (like an invalid path or a permission error). |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
-<br/>
 <br/>
 
 ## Get Documentation URL
@@ -269,9 +265,10 @@ Get the current Ariel plugin documentation URL.
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
-<br/>
-<br/>
+
+---
+
+<br/><br/>
 
 # Structures
 
@@ -282,9 +279,9 @@ C++ and Blueprint structs defined by the Ariel plugin.
 
 ## Ariel Speaker *(FArielSpeaker)*
 
-C++ Name: `FArielSpeaker`
+C++ Declaration: `FArielSpeaker`
 
-The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Developer settings](TODO).
+The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Project settings](/doc/Others.md#plugin-project-settings).
 
 ![Ariel speaker break node](/res/ariel_speaker.png)
 
@@ -300,9 +297,10 @@ The JSON structure of a speaker returned by the Ariel API. You can find the spea
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
-<br/>
-<br/>
+
+---
+
+<br/><br/>
 
 # Enumerations
 
@@ -313,12 +311,12 @@ C++ and Blueprint enumerations defined by the Ariel plugin.
 
 ## Ariel Audio Effect *(EArielAudioEffect)*
 
-C++ Name: `EArielAudioEffect`
+C++ Declaration: `EArielAudioEffect`
 
 This enum contains all Ariel audio effects available. See [🎚️ Audio effects](/doc/Features.md#-audio-effects) for more details.
 
 ![Ariel audio effect make node](/res/ariel_audio_effect.png)<br/>
-*Hover the cursor on an value to see more details about it.*
+*Hover the cursor on a value to see more details about it.*
 
 ### Values
 
@@ -336,20 +334,19 @@ This enum contains all Ariel audio effects available. See [🎚️ Audio effects
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
-<br/>
 
 ## Ariel Audio Format *(EArielAudioFormat)*
 
-C++ Name: `EArielAudioFormat`
+C++ Declaration: `EArielAudioFormat`
 
 This enum contains all supported ariel audio file formats.
 
 ![Ariel audio format make node](/res/ariel_audio_format.png)<br/>
-*Hover the cursor on an value to see more details about it.*
+*Hover the cursor on a value to see more details about it.*
 
 ### Values
 
 | Name | Description |
 | ---- | ----------- |
-| wav  | PCM-16 RIFF Waveform audio file. |
-| mp3  | MPEG-1/2 audio file. |
+| WAV  | PCM-16 RIFF Waveform audio file. |
+| MP3  | MPEG-1/2 audio file. |

@@ -3,8 +3,6 @@
 
 ![ariel thumbnail](/res/ariel_thumbnail.png)
 
-**→ Buy the Ariel plugin from the Unreal marketplace here:** https://www.unrealengine.com/marketplace/en-US/product/ariel-voice-generation
-
 ## Table of contents
 
 → If you are more comfortable with a video, please watch our [YouTube tutorial video](https://youtu.be/78WMagHKaow)!<br/>

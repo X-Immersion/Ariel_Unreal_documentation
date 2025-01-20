@@ -8,6 +8,7 @@
 [Package a project](#package-a-project)<br/>
     *[No runtime generated sentences](#no-runtime-generated-sentences)*<br/>
     *[Blueprint only projects](#blueprint-only-projects)*<br/>
+[Adding local models](#adding-local-models)<br/>
 
 ## Plugin project settings
 
@@ -72,3 +73,12 @@ This is a known bug since UE4.24. A temporary workaround is to add a 'dummy' C++
 > [!WARNING]
 > If an error message occurs, ensure that the C++ Build tools are correctly installed (see [prerequisites](/doc/Setup.md#prerequisites)) and that the code can compile (if you didn't change the C++ file yourself it should be compilable by default).
 
+## Adding local models
+
+By default there will be 2 local speakers available inside the plugin. If you want to add more local speakers, you can do so by adding the speaker files to the plugin content folder. The speaker files are located in the plugin content folder under `Ariel/Local/models`.
+
+You need to make sure that always an {speaker_name}.onnx and {speaker_name}.onnx.json file are present in the same folder. The {speaker_name}.onnx file is the model file and the {speaker_name}.onnx.json file is the configuration file. 
+
+We can finetune models on your behalf, please contact us for more information.
+
+![Local models folder structure](/res/adding_local_speakers.png)

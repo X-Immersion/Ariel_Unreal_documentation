@@ -60,11 +60,22 @@ You can find a **<ins>fully operational</ins> Blueprint Actor** that generate an
 
 → Do not hesitate to look at the Ariel demo Actor Blueprint Event graph to see the nodes used to generate the speech. You can find more information about the nodes on the [API Reference](/doc/API.md), especially the nodes *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)*, *[On Ariel Response](/doc/API.md#on-ariel-response)* and *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)*.
 
+There are 3 entriepoints to the Ariel Demo Actor:
+
+- Begin Play: Initialize the Ariel Demo Actor to start the local Ariel Server in the background and triggers an initial speech generation.
+- Ariel TTS Local: Call the local Ariel API to generate the speech with the demo Actor parameters. You need to make sure that the Local Ariel Server is running in the background (should automatically run after Begin Play).
+- Ariel TTS: Call the online Ariel API to generate the speech with the demo Actor parameters. You need to make sure that the Online Ariel Server is running in the background.
+
 ![Ariel demo event graph](/res/ariel_demo_event_graph.png)
 
 ![Ariel demo blueprint](/res/ariel_demo_blueprint.png)
 
-1. ![blue box](https://placehold.co/10x10/3398ff/3398ff) The node *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)* is used to call the Ariel API and generate the speech with the demo Actor parameters.<br/>
-2. ![red box](https://placehold.co/10x10/ff6666/ff6666) The event *[On Ariel Response](/doc/API.md#on-ariel-response)* is called when the Ariel API responded. We ensure that the request was successful, otherwise the error is printed in the logs.<br/>
-3. ![green box](https://placehold.co/10x10/66ff66/66ff66) The node *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)* is used to generate a SoundWave Asset from the API response bytes data.<br/>
-4. ![purple box](https://placehold.co/10x10/b266ff/b266ff) The nodes *Set Sound* and *Play* from the Unreal Audio Component are used to play the generated SoundWave Asset.
+1. ![blue box](https://placehold.co/10x10/3398ff/3398ff) The node *[Remote TTS](/doc/API.md#ariel-text-to-speech)* is used to call the Ariel API and generate the speech with the demo Actor parameters.<br/>
+2. ![red box](https://placehold.co/10x10/ff6666/ff6666) The event *[Local TTS](/doc/API.md#on-ariel-response)* is used to call the local Ariel API and generate the speech with the demo Actor parameters.<br/>
+
+
+![Ariel demo blueprint](/res/ariel_demo_blueprint_finished.png)
+
+
+3. ![purple box](https://placehold.co/10x10/b266ff/b266ff) The node *[Play Audio](/doc/API.md#audio-wav-bytes-to-soundwave)* is used to generate a SoundWave Asset from the API response bytes data. It also includes the nodes *Set Sound* and *Play* from the Unreal Audio Component that are used to play the generated SoundWave Asset.<br/>
+4. ![green box](https://placehold.co/10x10/66ff66/66ff66) This is used to set the Variable InProgress to false when the audio is finished generating. This is used to prevent the actor from generating a new audio while the previous one is still generating.<br/>

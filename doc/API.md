@@ -8,25 +8,30 @@
 [On Ariel Response](#on-ariel-response)<br/>
 [Audio WAV bytes to SoundWave](#audio-wav-bytes-to-soundwave)<br/>
 #### [Utilities](#utilities-1)
-    [Get available Speakers](#get-available-speakers-pure) <b style="color:red">\*</b> <br/>
-    [Get available Speakers (filtered)](#get-available-speakers-filtered-pure) <b style="color: red">\*</b><br/>
+    [Get available Speakers](#get-available-speakers-pure)<br/>
+    [On Speakers Received](#on-speakers-received)<br/>
     [Scheme filename](#scheme-filename)<br/>
 #### [Editor only](#editor-only-1)
     [Show folder selection dialog](#show-folder-selection-dialog)<br/>
     [Save bytes to file](#save-bytes-to-file)<br/>
-    [Get Documentation URL](#get-documentation-url) <b style="color: red">\*</b><br/>
+    [Get Documentation URL](#get-documentation-url)<br/>
 #### [Structures](#structures-1)
     [Ariel Speaker](#ariel-speaker-farielspeaker)<br/>
 #### [Enumerations](#enumerations-1)
-    [Ariel Audio Format](#ariel-audio-format-earielaudioformat)<br/>
-    [Ariel Audio Effect](#ariel-audio-effect-earielaudioeffect)<br/>
+    [Ariel Audio Format](#ariel-audio-format-earielaudioformat)<br/> 
+    [Ariel Audio Effect](#ariel-audio-effect-earielaudioeffect)<br/> 
+#### [Startup Functions](#startup-functions-1) 
+    [Start Ariel Subsystem](#start-ariel-subsystem)<br/> 
+    [On Ariel Subsystem Started](#foarielinitialized)<br/>
+    [Stop Ariel Subsystem](#stop-ariel-subsystem)<br/>
 
-*<b style="color:red">\*</b>Pure functions*
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
 ## Ariel Text-To-Speech
+
+> The following is all equivalent to the [Ariel Local TTS](/doc/Quickstart.md#-runtime-generation) feature and will behave the same way and therefore not described in detail here.
 
 C++ Function: `UArielBPLibrary::ArielTTS`
 
@@ -50,6 +55,8 @@ This node calls the Ariel API using **HTTPS** request with all defined parameter
 | Audio Effects     | const TArray\<[EArielAudioEffect](#ariel-audio-effect-earielaudioeffect)\>& | *empty array* (no effects) | List of all audio effects who will be applied to the audio.<br/> See [🎚️ Audio effects](/doc/Features.md#-audio-effects). |
 | Logs              | const bool     | `false`           | Indicate if logs should be printed to the console. |
 | On Response       | [FOnArielResponse](#on-ariel-response) | -               | The event called when a response was received. |
+
+> The local TTS version currently does not support the use of Audio Effects. Those will not have any effect on the generated audio. They will be added in a future release.
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
@@ -111,7 +118,7 @@ The following nodes have been created to help the usage of the Ariel plugin, but
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get available Speakers *(pure)*
+## Get available Speakers
 
 C++ Function: `UArielBPLibrary::GetSpeakersFromSettings`
 
@@ -123,31 +130,26 @@ Get the available speakers list from the project settings.
 
 | Name         | Type                    | Description |
 | ------------ | ----------------------- | ----------- |
-| Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The list of available speakers. This is the same list as the documentation [speaker list](/README.md#speakers). |
+TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The list of available speakers. 
+| Logs          | const bool            | `true`         | Indicate if logs should be printed to the console. |
+| On Response       | [FOnSpeakersAvailable](#on-speakers-received) | -               | The event called when a response was received. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get available Speakers (filtered) *(pure)*
+## On Speakers Received
 
-C++ Function: `UArielBPLibrary::GetSpeakersFiltered`
+C++ Declaration: `FOnSpeakersAvailable`
 
-Get available Ariel speakers that correspond to the desired gender and language.
+Use the nodes *Add Custom Event...* or *Create Event* to bind the [Available Speakers](#get-available-speakers) delegate to a Blueprint Event or function.
 
-![Get available Speakers filtered node](/res/get_available_speakers_filtered.png)
-
-### Parameters
-
-| Name        | Type                 | Default value  | Description |
-| ----------- | -------------------- | -------------- | ----------- |
-| Language    | const FString&       | *empty string* | The desired language. Leave empty to allow all languages. |
-| Gender      | const FString&       | *empty string* | The desired gender. Leave empty to allow all genders. |
 
 ### Return values
 
-| Name         | Type                    | Description |
-| ------------ | ----------------------- | ----------- |
-| Return value | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The filtered list of available speakers. |
+| Name              | Type                  | Description |
+| ----------------- | --------------------- | ----------- |
+| Speakers           | TArray\<[FArielSpeaker](#ariel-speaker-farielspeaker)\> | The list of available speakers. |
+
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
@@ -268,7 +270,7 @@ Get the current Ariel plugin documentation URL.
 
 ---
 
-<br/><br/>
+<br/>
 
 # Structures
 
@@ -281,7 +283,7 @@ C++ and Blueprint structs defined by the Ariel plugin.
 
 C++ Declaration: `FArielSpeaker`
 
-The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers) or in Unreal [Project settings](/doc/Others.md#plugin-project-settings).
+The JSON structure of a speaker returned by the Ariel API. You can find the speakers list with all details [here](/README.md#speakers). The Speaker list can vary depending on your API key inside [Project settings](/doc/Others.md#plugin-project-settings) and the local models inside the [models folder](/doc/Others.md#adding-local-models).
 
 ![Ariel speaker break node](/res/ariel_speaker.png)
 
@@ -291,8 +293,9 @@ The JSON structure of a speaker returned by the Ariel API. You can find the spea
 | --------- | ----------------- | ---------------- | --------- | ----------- |
 | ID        | int               | Visible Anywhere | Read-only | The Ariel Speaker identifier. |
 | Name      | FString           | Visible Anywhere | Read-only | The Ariel Speaker name. |
-| Gender    | Gender            | Visible Anywhere | Read-only | The Ariel Speaker gender. |
+| Gender    | Gender            | Visible Anywhere | Read-only | The Ariel Speaker gender. Gender is currently not in use. |
 | Languages | TArray\<FString\> | Visible Anywhere | Read-only | The Ariel Speaker language(s). |
+| Local Execution | bool | Visible Anywhere | Read-only | If an available speaker can be used for local or remote execution. |
 
 <!------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------->
@@ -350,3 +353,51 @@ This enum contains all supported ariel audio file formats.
 | ---- | ----------- |
 | WAV  | PCM-16 RIFF Waveform audio file. |
 | MP3  | MPEG-1/2 audio file. |
+
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+
+## Start Ariel Subsystem
+
+C++ Function: `UArielBPLibrary::StartSubsystem`
+
+Starts the background server for the Ariel plugin. This function needs to be called when using the local version of Ariel.
+
+![Start Ariel Subsystem](/res/start_ariel_subsystem.png)
+
+### Return values
+
+| Name         | Type                    | Description |
+| ------------ | ----------------------- | ----------- |
+| On Response       | [FOnArielInitialized](#foarielinitialized) | -               | The event called when a response was received. |
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+<br/>
+
+## FOArielInitialized
+
+C++ Declaration: `FOnArielInitialized`
+
+Use the nodes *Add Custom Event...* or *Create Event* to bind the [Startup of the local Ariel Server](#start-ariel-subsystem) delegate to a Blueprint Event or function.
+
+
+### Return values
+
+| Name              | Type                  | Description |
+| ----------------- | --------------------- | ----------- |
+| Success          | bool                  | Indicate if the local Ariel Server has started successfully |
+
+
+## Stop Ariel Subsystem
+
+C++ Function: `UArielBPLibrary::StopSubsystem`
+
+Stops the background server for the Ariel plugin. This function needs to be called when exiting the game. If this is not called, the server will continue to run in the background.
+
+### Return values
+
+| Name         | Type                    | Description |
+| ------------ | ----------------------- | ----------- |
+| -           | -                       | No return value. |

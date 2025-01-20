@@ -38,6 +38,11 @@
 ####     [Enumerations](/doc/API.md#enumerations-1)
         [Ariel Audio Format](/doc/API.md#ariel-audio-format-earielaudioformat)<br/>
         [Ariel Audio Effect](/doc/API.md#ariel-audio-effect-earielaudioeffect)<br/>
+#### [Startup Functions](/doc/#startup-functions-1) 
+    [Start Ariel Subsystem](/doc/API.md#start-ariel-subsystem)<br/> 
+    [On Ariel Subsystem Started](/doc/API.md#foarielinitialized)<br/>
+    [Stop Ariel Subsystem](/doc/API.md#stop-ariel-subsystem)<br/>
+
 *<b style="color:red">\*</b>Pure functions*
 
 ### [Others](doc/Others.md)

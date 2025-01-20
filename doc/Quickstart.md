@@ -60,6 +60,15 @@ You can find a **<ins>fully operational</ins> Blueprint Actor** that generate an
 
 → Do not hesitate to look at the Ariel demo Actor Blueprint Event graph to see the nodes used to generate the speech. You can find more information about the nodes on the [API Reference](/doc/API.md), especially the nodes *[Ariel Text-to-Speesh](/doc/API.md#ariel-text-to-speech)*, *[On Ariel Response](/doc/API.md#on-ariel-response)* and *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)*.
 
+
+6. We also added an Ariel Demo Interface which will be added to the Viewport when running the Demo Project. You can use this interface to generate speech with the Ariel Demo Actor. The interface is located in the Ariel plugin Content.
+
+![Ariel demo interface](/res/ariel_demo_interface.png)
+
+![Ariel demo interface in Blueprint](/res/ariel_demo_interface_bp.png)
+
+
+
 There are 3 entriepoints to the Ariel Demo Actor:
 
 - Begin Play: Initialize the Ariel Demo Actor to start the local Ariel Server in the background and triggers an initial speech generation.

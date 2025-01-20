@@ -41,3 +41,6 @@ There are two different versions of the plugin:
 
 4. Navigate to **Edit** > **Plugins** > Search **"Ariel"** and enable the Ariel plugin (you may need to restart the Engine):
 ![enable plugin](/res/enable_plugin.png)
+
+5. Navigate to **Edit** > **Project Settings** > Search **"Ariel"**. Fill the **API Key** and **API Endpoint** fields with the values provided to you. If you are a Business customer, you might have a dedicated API Endpoint and API Key. Please contact us if you have any question.
+![project settings](/res/project_settings.png)

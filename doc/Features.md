@@ -39,7 +39,3 @@ In your sentence, you can enter a silence tag for a custom pause. Write `<pause 
 <br/>
 
 **→ More tags will be added in our future plugin updates!**
-
-## ⚙️ Local executable
-
-You can find more information about the local executable on [this page](/doc/Local.md).

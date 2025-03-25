@@ -16,37 +16,37 @@
 
     [🎬 Editor pre-generation](/doc/Quickstart.md#-editor-pre-generation)<br/>
     [🎤 Runtime generation](/doc/Quickstart.md#-runtime-generation)<br/>
+    [⚙️ Local executable](/doc/Local.md)<br/>
 
-### [Features](/doc/Features.md) (Remote only)
+### [Features](/doc/Features.md) *(Remote only)*
     [🎚️ Audio effects](/doc/Features.md#Audio%20effects)<br/>
     [📝 Tags](/doc/Features.md#Tags)<br/>
-    [⚙️ Local executable](/doc/Local.md)<br/>
 
 ### [API Reference](/doc/API.md)
     [Ariel Text-To-Speech](/doc/API.md#ariel-text-to-speech)<br/>
     [Ariel Text-To-Speech Local](/doc/API.md#ariel-text-to-speech-local)<br/>
     [Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)<br/>
-    [Start Ariel Local](/doc/API.md#start-ariel-local)<br/>
-    [Stop Ariel Local](/doc/API.md#stop-ariel-local)<br/>
-####     [Delegates (Events)](/doc/API.md#delegates-events-1)
+    [Start Local Ariel](/doc/API.md#start-local-ariel)<br/>
+    [Stop Local Ariel](/doc/API.md#stop-local-ariel)<br/>
+####     [Delegates (Events)](/doc/API.md#delegates-events-1)
         [On Ariel Response](/doc/API.md#on-ariel-response)<br/>
         [On Ariel Speakers Available](/doc/API.md#on-ariel-speakers-available)<br/>
         [On Ariel Initialized](/doc/API.md#on-ariel-initialized)<br/>
         [On Check Ariel Available Response](/doc/API.md#on-check-ariel-available-response)<br/>
-####     [Utilities](/doc/API.md#utilities-1)
+####     [Utilities](/doc/API.md#utilities-1)
         [Get Ariel Local Executable Status](/doc/API.md#get-ariel-local-executable-status-pure) <b style="color: red">\*</b><br/>
         [Get available Speakers](/doc/API.md#get-available-speakers)<br/>
         [Get Number Channels From SoundWave](/doc/API.md#get-number-channels-from-soundwave-pure) <b style="color: red">\*</b><br/>
         [Get Sample Rate From SoundWave](/doc/API.md#get-sample-rate-from-soundwave-pure) <b style="color: red">\*</b><br/>
         [Is Connected to Internet](/doc/API.md#is-connected-to-internet)<br/>
         [Scheme filename](/doc/API.md#scheme-filename)<br/>
-####     [Editor only](/doc/API.md#editor-only-1)
+####     [Editor only](/doc/API.md#editor-only-1)
         [Show folder selection dialog](/doc/API.md#show-folder-selection-dialog)<br/>
         [Save bytes to file](/doc/API.md#save-bytes-to-file)<br/>
         [Get Documentation URL](/doc/API.md#get-documentation-url-pure) <b style="color: red">\*</b><br/>
-####     [Structures](/doc/API.md#structures-1)
+####     [Structures](/doc/API.md#structures-1)
         [Ariel Speaker](/doc/API.md#ariel-speaker-farielspeaker)<br/>
-####     [Enumerations](/doc/API.md#enumerations-1)
+####     [Enumerations](/doc/API.md#enumerations-1)
         [Ariel Audio Format](/doc/API.md#ariel-audio-format-earielaudioformat)<br/>
         [Ariel Audio Effect](/doc/API.md#ariel-audio-effect-earielaudioeffect)<br/>
         [Ariel Local Executable Status](/doc/API.md#ariel-local-executable-status-earielsubsystemstatus)<br/>
@@ -59,7 +59,7 @@
 
 <br/>
 
-If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com)
+If you have any question, do not hesitate to contact us through our [Discord server](https://discord.gg/qDMwNCDE8X) or by mail at [contact@xandimmersion.com](mailto:contact@xandimmersion.com).
 
 ## Speakers
 

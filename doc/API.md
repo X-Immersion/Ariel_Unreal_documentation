@@ -586,7 +586,7 @@ This enum contains all supported ariel audio file formats.
 | WAV  | PCM-16 RIFF Waveform audio file. |
 | MP3  | MPEG-1/2 audio file. |
 
-## Ariel Local Executable Status
+## Ariel Local Executable Status *(EarielSubsystemStatus)*
 
 C++ Declaration: `EArielSubsystemStatus`
 

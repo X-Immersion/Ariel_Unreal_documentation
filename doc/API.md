@@ -84,7 +84,7 @@ static void UArielBPLibrary::ArielTTSLocal()
 This node calls the Ariel Local *(offline)* API using **HTTP** request with all defined parameters (model name, sentence, semitones, …). The response is sent through a multicast delegate event, [On Ariel Response](#on-ariel-response).
 
 >[!IMPORTANT]
-> You must have called the node [START ARIEL LOCAL](#start-ariel-local) before in order for the local requests to be processed. You only need to call this node once (i.e.: when the game starts).
+> You must have called the node [START LOCAL ARIEL](#start-local-ariel) before in order for the local requests to be processed. You only need to call this node once (i.e.: when the game starts).
 
 ![Ariel Text-To-Speech local node](/res/ariel_text_to_speech_local.png) |
 
@@ -260,7 +260,7 @@ The following nodes have been created to help the usage of the Ariel plugin, but
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get Ariel Local Executable Status (Pure)
+## Get Ariel Local Executable Status *(Pure)*
 
 C++ Function:
 ```cpp
@@ -301,7 +301,7 @@ Get the available speakers list. For remote speakers, it use the Api-Key provide
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get Number Channels From SoundWave (Pure)
+## Get Number Channels From SoundWave *(Pure)*
 
 C++ Function:
 ```cpp
@@ -327,7 +327,7 @@ Get the number of channels from the SoundWave.
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get Sample Rate From SoundWave (Pure)
+## Get Sample Rate From SoundWave *(Pure)*
 
 C++ Function:
 ```cpp
@@ -479,7 +479,7 @@ Write the given bytes to a file. If the file already exists, it will be overwrit
 <!------------------------------------------------------------------------------------------------------------------------------->
 <br/>
 
-## Get Documentation URL (Pure)
+## Get Documentation URL *(Pure)*
 
 C++ Function:
 ```cpp

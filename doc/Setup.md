@@ -6,7 +6,8 @@
 
 [Prerequisites](#prerequisites)<br/>
 [Installation](#installation)<br/>
-
+    *[From a ZIP archive (source code)](#from-a-zip-archive-source-code)*<br/>
+    *[From the Marketplace](#from-the-marketplace)*<br/>
 ## Prerequisites
 
 There are two different versions of the plugin:
@@ -44,3 +45,22 @@ There are two different versions of the plugin:
 
 5. Navigate to **Edit** > **Project Settings** > Search **"Ariel"**. Fill the **API Key** and **API Endpoint** fields with the values provided to you. If you are a Business customer, you might have a dedicated API Endpoint and API Key. Please contact us if you have any question.
 ![project settings](/res/project_settings.png)
+
+### From the Marketplace
+
+0. Download and open the Epic Game's launcher: https://store.epicgames.com/download<br/>
+Then, purchase the Ariel plugin from the Marketplace.
+
+1. Login to your account:<br/>
+![epic login form](/res/epic_sign_in.png)
+
+2. Go to **Library** > **Vault** (at the end of the page) > **"Ariel Voice Generation"** and click on *Install to engine*:<br/>
+![epic plugin installation](/res/install_plugin_library.png)<br/>
+
+3. Select your Unreal Engine version and click *Install*. Ariel v2.0.0 is compatible with UE 5.2, UE 5.3, UE 5.4 and UE5.5:<br/>
+![select engine version](/res/select_plugin_version.png)
+
+4. (Re)open an existing project or create a new one with the same Unreal Engine version. 
+
+5. Navigate to **Edit** > **Plugins** > Search **"Ariel"** and enable the Ariel plugin (you may need to restart the Engine):
+![enable plugin](/res/enable_plugin.png)

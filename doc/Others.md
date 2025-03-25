@@ -22,7 +22,7 @@ Some parameters, such as the API Endpoint URL and the API key used to authentica
 | ----------------- | ----------------- | ----------- |
 | API Endpoint      | https://ariel-api.xandimmersion.com/ | The URL of Ariel API. <br/>*→ If you are a Business customer and use dedicated servers, paste here your API Endpoint.* |
 | API Key           | XXXXXXXXXXXXXXXXX | The API Key used with Ariel for authentication. Some API key have access to more voices than the one listed. The speakers list is automatically changed every time the API key is changed (you must have an internet access to retrieve the API key speakers list).<br/> *→ If you are a Business customer, paste here your API Key.* |
-| Speakers (R/O)    | *empty array*     | The list of allowed [FArielSpeaker](/doc/API.md#ariel-speaker-farielspeaker) for this API Key. The list is automatically updated from the API server each time the API key is modified (you must have an internet access to update the speakers list). |
+| Local Executable Port | 8003 | The local port used by the Ariel local executable. The port must not be already used by an other process. If you change the port while the local executable was already started, you will need to restart the executable in order to use the new port.
 
 You can retrieve these values at runtime by using the node `Get Class Defaults` and then choose the class `ArielPluginSettings` :
 
@@ -72,13 +72,3 @@ This is a known bug since UE4.24. A temporary workaround is to add a 'dummy' C++
 
 > [!WARNING]
 > If an error message occurs, ensure that the C++ Build tools are correctly installed (see [prerequisites](/doc/Setup.md#prerequisites)) and that the code can compile (if you didn't change the C++ file yourself it should be compilable by default).
-
-## Adding local models
-
-By default there will be 2 local speakers available inside the plugin. If you want to add more local speakers, you can do so by adding the speaker files to the plugin content folder. The speaker files are located in the plugin content folder under `Ariel/Local/models`.
-
-You need to make sure that always an {speaker_name}.onnx and {speaker_name}.onnx.json file are present in the same folder. The {speaker_name}.onnx file is the model file and the {speaker_name}.onnx.json file is the configuration file. 
-
-We can finetune models on your behalf, please contact us for more information.
-
-![Local models folder structure](/res/adding_local_speakers.png)

@@ -20,7 +20,7 @@ Here is a quick description of all nodes related to the local executable. You ca
 
 ## Add local voice
 
-This feature is not available yet. In order to keep informed, we **strongly** recommand you to follow us on [Hugging Face](https://huggingface.co/X-Immersion) and visit [create.xandimmersion.com](https://create.xandimmersion.com/login). If you really need more local voices, please email us at [contact@xandimmersion.com](mailto:contact@xandimmersion.com).
+This feature is not available yet. In order to keep informed, we **strongly** recommand you to follow us on [Hugging Face](https://huggingface.co/X-Immersion) and visit [create.xandimmersion.com](https://create.xandimmersion.com/login). If you really need more local voices, please email us at [support@xandimmersion.com](mailto:support@xandimmersion.com).
 
 ## Local executable Lifecycle
 

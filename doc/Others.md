@@ -32,6 +32,9 @@ You can retrieve these values at runtime by using the node `Get Class Defaults` 
 
 The Ariel plugin works on packaged projects for Windows, Mac and Linux. Other operating systems may work as well, but we do not officially support them.
 
+> [!CAUTION]
+> If you try to package a game with UE5.0 and a custom Api-Key, please make sure that the plugin project settings INI file is **included** in the build. The INI file is located under `YOUR_PROJECT/Config/DefaultAriel.ini`
+
 ### No runtime generated sentences
 
 If your project does **not** use runtime generated sentences, meaning all speech are pre-generated and the nodes *[Ariel Text-To-Speech](/doc/API.md#ariel-text-to-speech)* and *[Audio WAV bytes to SoundWave](/doc/API.md#audio-wav-bytes-to-soundwave)* are never used outside the editor, then you can disable the Ariel plugin before packaging the project.

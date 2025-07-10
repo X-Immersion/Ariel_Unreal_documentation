@@ -68,10 +68,66 @@ The list of remote speakers available highly depends on the API key used. The li
 Local speakers are not listed here, but all voice models that you have installed by following [this article](/doc/Local.md#add-local-voice) can be used.
 
 >[!TIP]
-> Voices included in the **Fantasy** Pack: *Orc, Urukhai, DarkElve, HalfElve, HighElve, WoodElve, Dis, Dwarf, Goblin, Nordman*
+> Voices included in the [**Fantasy** Pack](#fantasy-pack): *Orc, Urukhai, DarkElve, HalfElve, HighElve, WoodElve, Dis, Dwarf, Goblin, Nordman, Duergar*
 
 >[!TIP]
-> Voices included in the **Alien & demon** Pack: *Xalith, Yorgon, Zephyr, Nefraxis, Vorgrim, Zaltharion*
+> Voices included in the [**Alien & demon** Pack](#alien-and-demon-pack): *Xalith, Yorgon, Zephyr, Nefraxis, Vorgrim, Zaltharion*
+
+### Base pack
+
+| **Name**       | Gender | Age   | Language(s)                                                                                                                              |
+| -------------- | ------ | ----- | -----------------------------------------------------------------------------------------------------------------------------------------|
+| **Ada**        | Female | Adult | English, Bulgarian, Chinese, Classic arabic, Croatian, Czech, Danish, Dutch, Filipino, Finnish, French, German, Greek, Hindi, Indonesian, Italian, Japenese, Korean, Malay, Polish, Portugese, Romanian, Russian, Slovak, Spanish, Swedish, Tamil, Turkish, Ukrainian |
+| **Alioth**     | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **David**      | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Dulhan**     | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Elen**       | Female | Young | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Elizabeth**  | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Eve**        | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Henry**      | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Jake**       | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Jessy**      | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Mazarrin**   | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Michael**    | Male   | Kid   | English |
+| **Ned**        | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Richard**    | Male   | Old   | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Riley**      | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Samantha**   | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Socrates**   | Male   | Old   | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Tom**        | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Triniac**    | Male   | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Zenaya**     | Female | Adult | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+
+### Fantasy pack
+
+| **Name**       | Gender | Cat.  | Language(s)                                                                                                                              |
+| -------------- | ------ | ----- | -----------------------------------------------------------------------------------------------------------------------------------------|
+| **DarkElve**   | Male   | Elve  | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Dis**        | Female | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Duergar**    | Male   | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Dwarf**      | Male   | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Goblin**     | Male   | Orc   | English, Bulgarian, Chinese, Classic arabic, Croatian, Czech, Danish, Dutch, Filipino, Finnish, French, German, Greek, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Polish, Portuguese, Romanian, Russian, Slovak, Spanish, Swedish, Tamil, Turkish, Ukrainian |
+| **HalfElve**   | Female | Elve  | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **HighElve**   | Male   | Elve  | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Nordman**    | Male   | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Orc**        | -      | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Urukhai**    | -      | Dwarf | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **WoodElve**   | Female | Elve  | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+
+
+### Alien and demon pack
+
+| **Name**       | Gender | Age   | Language(s)                                                                                                                              |
+| -------------- | ------ | ----- | -----------------------------------------------------------------------------------------------------------------------------------------|
+| **Nefraxis**   | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Vorgrim**    | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Xalith**     | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Yorgon**     | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Zaltharion** | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Zephyr**     | -      | -     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+
+
+### Old voices (not available anymore - please go to https://create.xandimmersion.com)
 
 | **Name**       | Language(s)                                                                                                                              |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,28 +136,19 @@ Local speakers are not listed here, but all voice models that you have installed
 | **Advika**     | English                                                                                                                                  |
 | **Aeron**      | English                                                                                                                                  |
 | **Alexandra**  | Romanian                                                                                                                                 |
-| **Alioth**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Alix**       | French                                                                                                                                   |
 | **Angharad**   | Welsh                                                                                                                                    |
 | **Anke**       | Dutch                                                                                                                                    |
 | **Anna**       | Icelandic                                                                                                                                |
 | **Arnaud**     | French                                                                                                                                   |
-| **Baldur**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Baldur**     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Barbara**    | English                                                                                                                                  |
 | **Camilla**    | Norwegian                                                                                                                                |
 | **Capucine**   | French                                                                                                                                   |
 | **Celine**     | French                                                                                                                                   |
 | **Charlotte**  | English                                                                                                                                  |
 | **Daiyu**      | Chinese                                                                                                                                  |
-| **DarkElve**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **David**      | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Dis**        | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Duergar**    | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Dulhan**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Dwarf**      | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Elen**       | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Elijah**     | English                                                                                                                                  |
-| **Elizabeth**  | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Elna**       | English                                                                                                                                  |
 | **Emma**       | Danish                                                                                                                                   |
 | **Eva**        | Swedish                                                                                                                                  |
@@ -109,10 +156,7 @@ Local speakers are not listed here, but all voice models that you have installed
 | **Felix**      | German                                                                                                                                   |
 | **Francisca**  | Spanish                                                                                                                                  |
 | **Gabriella**  | Italian                                                                                                                                  |
-| **Goblin**     | Bulgarian, Chinese, Classic arabic, Croatian, Czech, Danish, Dutch, English, Filipino, Finnish, French, German, Greek, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Polish, Portuguese, Romanian, Russian, Slovak, Spanish, Swedish, Tamil, Turkish, Ukrainian |
 | **Grace**      | English                                                                                                                                  |
-| **HalfElve**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **HighElve**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Inessa**     | Russian                                                                                                                                  |
 | **Jack**       | English                                                                                                                                  |
 | **Jan**        | Polish                                                                                                                                   |
@@ -131,12 +175,9 @@ Local speakers are not listed here, but all voice models that you have installed
 | **Mia**        | English                                                                                                                                  |
 | **Michael**    | English                                                                                                                                  |
 | **Miguel**     | Spanish                                                                                                                                  |
-| **Mike**       | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Nefraxis**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Nordman**    | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Mike**       | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Onkar**      | English                                                                                                                                  |
-| **Orc**        | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Oriane**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Oriane**     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Oscar**      | Danish                                                                                                                                   |
 | **Pati**       | Portuguese                                                                                                                               |
 | **Patricia**   | English                                                                                                                                  |
@@ -144,26 +185,16 @@ Local speakers are not listed here, but all voice models that you have installed
 | **Pedro**      | Portuguese                                                                                                                               |
 | **Piotr**      | Polish                                                                                                                                   |
 | **Rika**       | Japanese                                                                                                                                 |
-| **Riley**      | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Riley**      | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Rosa**       | Spanish                                                                                                                                  |
 | **Sigriour**   | Icelandic                                                                                                                                |
-| **Socrates**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Sophia**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Sophia**     | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Stephanie**  | French                                                                                                                                   |
 | **Susan**      | English                                                                                                                                  |
 | **Tabata**     | Portuguese                                                                                                                               |
 | **Tanaka**     | Japanese                                                                                                                                 |
 | **Theresa**    | German                                                                                                                                   |
 | **Thomas**     | English                                                                                                                                  |
-| **Tom**        | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Urukhai**    | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
+| **Tom**        | English, Chinese, Classic arabic, Czech, Dutch, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **Viktor**     | Russian                                                                                                                                  |
-| **Vorgrim**    | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
 | **William**    | English                                                                                                                                  |
-| **WoodElve**   | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Xalith**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Yorgon**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Zaltharion** | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Zenaya**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-| **Zephyr**     | Chinese, Classic arabic, Czech, Dutch, English, French, German, Italian, Japanese, Korean, Polish, Portuguese, Russian, Spanish, Turkish |
-
